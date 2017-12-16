@@ -1,0 +1,37 @@
+:root {
+    --white: #FFFFFF;
+    --green: #7AB55C;
+    --grey: #7B7B7B;
+    --purple-light: #5c6ac4;
+    --purple-dark: #000639;
+    --red: #C23628;
+    --main-font: helvetica;
+}
+
+#body{
+    background-color: var(--purple-dark);
+}
+
+#title_container{
+    margin-top:75px;
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#title_text{
+    position:relative;
+    font-family: var(--main-font);
+    color: var(--white);
+    margin:auto;
+    font-size:24px;
+    width:450px
+}
+
+#highlight{
+    position:relative;
+    background-color: var(--green);
+    height:3px;
+    width:30px;
+    margin-top:13px;
+}
