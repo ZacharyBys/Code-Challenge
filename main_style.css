@@ -92,3 +92,17 @@
     font-family: var(--main-font);
     color: var(--white);
 }
+
+#unsubscribe{
+    position:absolute;
+    text-decoration:underline;
+    color: var(--white);
+    font-family: var(--main-font);
+    margin-bottom:10px;
+    font-weight:bold;
+    font-size:12px;
+    position:absolute;
+    bottom: 0px;
+    text-align:center;
+    width:100%;
+}
