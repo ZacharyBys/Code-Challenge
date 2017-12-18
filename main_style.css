@@ -3,6 +3,7 @@
     --green: #7AB55C;
     --grey: #7B7B7B;
     --purple-light: #5c6ac4;
+    --purple-light-highlight: #3d47db;
     --purple-dark: #000639;
     --red: #C23628;
     --main-font: helvetica;
@@ -72,6 +73,57 @@
 #warning{
     color: var(--red);
     font-family: var(--main-font);
+    margin-top:5px;
+}
+
+#email_div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#email {
+    position: relative;
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: var(--grey);
+    outline: none;
+    width:90%;
+    border-width:0px;
+    display: block;
+    margin : auto;
+}
+
+#email:focus{
+     box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+
+#line{
+    float: right;
+    position: absolute;
+    z-index: 1000;
+    background-color: var(--grey);
+    width: 1.5px;
+    margin-top:15px;
+    margin-left: 50px;
+    height: 20px;
+}
+
+#interest_div{
+    display: flex;
+    justify-content: center;
+}
+
+#interest{
+    color: var(--grey);
+    font-family: var(--main-font);
+    font-size: 16px;
+    outline: none;
+    border-width: 0px;
+    width:90%;
+    
 }
 
 #signup_div{
@@ -80,6 +132,10 @@
     background-color: var(--purple-light);
     border-radius:7px;
     display: table;
+}
+
+#signup_div:hover{
+    background-color: var(--purple-light-highlight);
 }
 
 #signup_text{
