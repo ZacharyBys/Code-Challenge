@@ -1,16 +1,6 @@
-:root {
-    --white: #FFFFFF;
-    --green: #7AB55C;
-    --grey: #7B7B7B;
-    --purple-light: #5c6ac4;
-    --purple-light-highlight: #3d47db;
-    --purple-dark: #000639;
-    --red: #C23628;
-    --main-font: helvetica;
-}
 
 #body{
-    background-color: var(--purple-dark);
+    background-color: #000639;
 }
 
 #title_container{
@@ -26,15 +16,15 @@
 
 #title_text{
     position:relative;
-    font-family: var(--main-font);
-    color: var(--white);
+    font-family: helvetica;
+    color: #FFFFFF;
     font-size:24px;
     width:450px
 }
 
 #sub_text{
-    color: var(--white);
-    font-family: var(--main-font);
+    color: #FFFFFF;
+    font-family: helvetica;
     margin-top:40px;
     font-size:16px;
     font-weight:500;
@@ -42,14 +32,14 @@
 
 #highlight{
     position:relative;
-    background-color: var(--green);
+    background-color: #7AB55C;
     height:3px;
     width:30px;
     margin-top:13px;
 }
 
 #email_div{
-    background-color: var(--white);
+    background-color: #FFFFFF;
     height:50px;
     width:60%;
     float: left;
@@ -57,7 +47,7 @@
 }
 
 #interest_div{
-    background-color: var(--white);
+    background-color: #FFFFFF;
     height:50px;
     float: right;
     width:37%;
@@ -71,8 +61,8 @@
 }
 
 #warning{
-    color: var(--red);
-    font-family: var(--main-font);
+    color: #C23628;
+    font-family: helvetica;
     margin-top:7px;
 }
 
@@ -84,9 +74,9 @@
 
 #email {
     position: relative;
-    font-family: var(--main-font);
+    font-family: helvetica;
     font-size: 16px;
-    color: var(--grey);
+    color: #7B7B7B;
     outline: none;
     width:90%;
     border-width:0px;
@@ -104,10 +94,10 @@
     float: right;
     position: absolute;
     z-index: 1000;
-    background-color: var(--grey);
-    width: 1.5px;
+    background-color: #7B7B7B;
+    width: 1px;
     margin-top:15px;
-    margin-left: 50px;
+    margin-left: 475px;
     height: 20px;
 }
 
@@ -117,8 +107,9 @@
 }
 
 #interest{
-    color: var(--grey);
-    font-family: var(--main-font);
+    color: #7B7B7B;
+    background-color: #FFFFFF;
+    font-family: helvetica;
     font-size: 16px;
     outline: none;
     border-width: 0px;
@@ -129,13 +120,13 @@
 #signup_div{
     height:50px;
     width:100%;
-    background-color: var(--purple-light);
+    background-color: #5c6ac4;
     border-radius:7px;
     display: table;
 }
 
 #signup_div:hover{
-    background-color: var(--purple-light-highlight);
+    background-color: #3d47db;
 }
 
 #signup_text{
@@ -145,15 +136,15 @@
     display: table-cell;
     vertical-align: middle;
     justify-content: center;
-    font-family: var(--main-font);
-    color: var(--white);
+    font-family: helvetica;
+    color: #FFFFFF;
 }
 
 #unsubscribe{
     position:absolute;
     text-decoration:underline;
-    color: var(--white);
-    font-family: var(--main-font);
+    color: #FFFFFF;
+    font-family: helvetica;
     margin-bottom:10px;
     font-weight:bold;
     font-size:12px;
