@@ -114,7 +114,15 @@
     outline: none;
     border-width: 0px;
     width:90%;
+    -moz-background-color: #FFFFFF;
+    -moz-border-width: 0px;
     
+}
+
+#interest::-ms-expand{
+    background-color: #FFFFFF;
+    border-width: 0px;
+    color: #7B7B7B;
 }
 
 #signup_div{
