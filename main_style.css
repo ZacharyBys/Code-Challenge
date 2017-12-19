@@ -114,8 +114,7 @@
     outline: none;
     border-width: 0px;
     width:90%;
-    -moz-background-color: #FFFFFF;
-    -moz-border-width: 0px;
+    -moz-appearance: none;
     
 }
 
